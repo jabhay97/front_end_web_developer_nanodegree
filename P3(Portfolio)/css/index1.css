@@ -1,0 +1,45 @@
+#outer_div{
+	display: flex;
+    margin-top:0.8%;
+}
+.logo
+{
+  border-radius: 10%;
+  height:7vw;
+}
+hr 
+{
+    height: 6px;
+    background-color: maroon;
+}
+.main-image
+{
+	max-width: 100%;
+	width: auto; 	
+}
+.title-name
+{
+    font-family: "Comic Sans MS";
+    font-size: 3.25em;
+    font-weight:bold;
+    color: black;
+    margin-top: 5px;
+    margin-bottom: 0;
+}
+.title-desig
+{
+    font-family: "Comic Sans MS";
+    font-size: 1.85em;
+    font-weight:bold;
+    color:red;
+    margin-top: 0px;
+}
+.work-image
+{
+	width: 193px;
+	height: 253px;
+}
+p
+{
+	font-size:20px;
+}

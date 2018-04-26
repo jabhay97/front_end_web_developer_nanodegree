@@ -1,0 +1,301 @@
+* {
+  -moz-box-sizing: border-box;
+  padding:0;
+  margin:0;
+  font-family: 'Roboto', sans-serif;
+}
+
+::-webkit-box-sizing:
+   border-box
+   {
+    display: block;
+}
+
+.can {
+  overflow: auto;
+}
+
+.education-entry, .work-entry, .project-entry {
+  padding-left: 6%;
+  padding-right: 6%;
+  margin: 0.5em;
+  margin-bottom: 2.0em;
+  color: red;
+}
+
+h1 {
+  font-size: 42px;
+  color: #C5B658;
+  line-height: 50px;
+  display: inline;
+}
+
+h2 {
+  font-weight: bold;
+  font-size: 25px;
+  color: #8B0000;
+  line-height: 30px;
+  padding: 1em;
+}
+
+h3 {
+  font-style: italic;
+  font-size: 20px;
+  color: #000000;
+  line-height: 22px;
+  margin-top: 1.0em;
+}
+
+h4 {
+  font-weight: bold;
+  font-size: 14px;
+  color: #4A4A4A;
+  line-height: 17px;
+}
+
+h2, h3, h4, h5 {
+  padding:10px;
+  padding-left: 5%;
+  padding-right: 5%;
+}
+
+
+.date-text {
+  font-style: italic;
+  font-size: 14px;
+  color: blue;
+  line-height: 16px;
+  float: left;
+}
+
+.location-text {
+  font-style: italic;
+  font-size: 14px;
+  font-weight: bold;
+  color: black;
+  line-height: 16px;
+  float: right;
+
+}
+
+p {
+  font-size: 14px;
+  color: #333333;
+  line-height: 21px;
+}
+
+a {
+  color:#8B0000;
+  text-decoration: none;
+  margin-top: 10px;
+  display: block;
+
+}
+
+.welcome-message {
+  font-style: italic;
+  font-size: 18px;
+  color: #F3F3F3;
+  line-height: 28px;
+}
+
+#skill {
+  color: #F5AE23;
+  margin: 0.1em;
+}
+
+.orange {
+  background-color: #F5AE23;
+}
+
+.orange-text {
+  color: #F5AE23;
+}
+
+.white-text {
+  font-weight: bold;
+  color: #FFFFFF;
+}
+
+.white-text2 {
+  font-weight: bold;
+  color: #FFFFFF;
+  padding: 0px;
+
+}
+
+.peach {
+  background-color:#F5AE23;
+  padding-bottom: 10px;
+  clear:both;
+}
+
+.maroon {
+  background-color: #8B0000;
+}
+
+#header {
+  background-color: #8B0000;
+}
+
+.flex-box {
+  display: -webkit-inline-box;
+  padding: 1.0em;
+}
+
+.center-content {
+  padding-top: 2.5%;
+  padding-left: 5%;
+  padding-right: 5%;
+  padding-bottom: 2.5%
+}
+
+ul {
+  list-style-type: none;
+}
+
+.biopic {
+  float: left;
+  padding: 10px;
+  width: 200px;
+  display: none;
+}
+
+img {
+  padding: 10px;
+}
+
+.img-responsive {
+  display: block;
+  width: 45%;
+  height: auto;
+  border:1px solid #4A4A4A;
+  padding:1px;
+}
+
+/* Bar chart stuff */
+.chart div {
+  font: 10px sans-serif;
+  background-color: #4A4A4A;
+  text-align: right;
+  padding: 3px;
+  margin: 1px;
+  height: 12px;
+  color: white;
+  display: inline-block;
+}
+
+span {
+  padding: 5px;
+}
+
+#letsConnect {
+  text-align: center;
+}
+
+​
+@media only screen and (max-width: 1024px) {
+  #letsConnect {
+    margin-top: 5%;
+  }
+  #skillsH3
+  {
+    display: none;
+  }
+}
+
+@media only screen and (max-width:900px) {
+  .biopic {
+    width: 175px;
+  }
+
+  .flex-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1.0em;
+  }
+
+  #topContacts {
+    display: none;
+  }
+
+  #skills {
+    display: none;
+  }
+
+  #skillsH3
+  {
+    display: none;
+  }
+
+  #footerContacts
+  {
+    display: none;
+  }
+
+
+
+}
+
+
+
+
+@media only screen and (max-width: 750px) {
+  #letsConnect {
+    margin-top: 10%;
+  }
+  .biopic {
+    width: 150px;
+  }
+  .welcome-message {
+    display: none;
+  }
+
+  #topContacts {
+    display: none;
+  }
+
+  #skills {
+    display: none;
+  }
+
+  #skillsH3
+  {
+    display: none;
+  }
+
+  #footerContacts
+  {
+    display: none;
+  }
+
+   .flex-box {
+  display: flex;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: space-around;
+  padding: 1.0em;
+  }
+}
+
+#map {
+  display: block;
+  height: 100%;
+  margin-left: 5%;
+  margin-right: 5%;
+}
+
+#mapDiv {
+  height: 400px;
+  width: 100%;
+  padding-bottom: 5%;
+}
+
+@media only screen and (min-width: 750px) {
+
+  .biopic {
+    display: block;
+  }
+}

@@ -1,0 +1,22 @@
+You've learned a lot about web development so far. I want you to take a moment to write down your thoughts about web development here. Answer the following questions:
+  * What new skills have you learned?
+  * What has been easy?
+  * What has been difficult?
+  * How have you used the problem solving strategies from the first project to overcome challenges so far?
+
+---
+
+Your response goes here!
+*I have learnt many new concepts listed below:
+1.Concept of trees in html
+2.How to create links in webpages
+3.Method to create lists in webpages
+4.How to insert  images in webpages
+5.Some basic text formatting in webpages
+6.Linking external CSS stylesheet and JS files to our HTML Document and many more.......
+
+*The concepts are taught very well so the project can be completed easily.
+
+*Nothing has been so difficult as concepts are tought very well.
+
+*I got to know how to easily debud the code using Console and then easily copy the error to google and thanks to stackoverflow that problem can be solved so easily. 

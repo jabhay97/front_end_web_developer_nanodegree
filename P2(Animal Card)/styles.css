@@ -1,0 +1,44 @@
+/* add your CSS here */
+body
+{
+	border: 2px solid;
+	border-color: lightgrey;
+	width: 330px;
+	box-shadow: 6px 6px lightgrey;
+}
+.division1
+{
+	margin: 0px 15px 10px 15px;
+}
+
+.paragraph1
+{
+	font-style: italic;
+}
+
+.division2
+{
+	border: 2px solid;
+	border-color: lightgrey;
+}
+.image
+{
+	margin: 0px 15px 10px 0;
+	width: 300px;
+	height: 200px;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+span{
+	text-align: left;
+	font-weight: bold;
+}
+
+h3{
+	margin-left:0px 0px 0px 0px 25px;
+}
